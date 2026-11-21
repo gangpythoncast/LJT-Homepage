@@ -19,7 +19,7 @@ I am a first-year Ph.D. candidate at the HKUST NLP Group, Hong Kong University o
 - Hallucination in vision-language models (VLMs)
 - LLM truthfulness and interpretability
 
-## Education
+## Academic Background
 
 - **Ph.D. in Computer Science**, Hong Kong University of Science and Technology (2024–Present)
   - HKUST NLP Group; Ph.D. supervisor: Prof. Junxian He
@@ -63,7 +63,7 @@ The publications are also available on the [Publications page]({{ base_path }}/p
    Jinghan Zhang, Shiqi Chen, Junteng Liu, Junxian He  
    *NeurIPS 2023*.
 
-## Contact
+## Contact Information
 
 - Email: [jliugi@connect.ust.hk](mailto:jliugi@connect.ust.hk)
 - GitHub: [Vicent0205](https://github.com/Vicent0205)

@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-## Education
+## Academic Background
 
 - **Ph.D. in Computer Science**, Hong Kong University of Science and Technology (2024–Present)
   - HKUST NLP Group; Ph.D. supervisor: Prof. Junxian He
@@ -59,7 +59,7 @@ redirect_from:
    Jinghan Zhang, Shiqi Chen, Junteng Liu, Junxian He  
    *NeurIPS 2023*.
 
-## Contact
+## Contact Information
 
 - Email: [jliugi@connect.ust.hk](mailto:jliugi@connect.ust.hk)
 - GitHub: [Vicent0205](https://github.com/Vicent0205)
