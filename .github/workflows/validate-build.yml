@@ -29,3 +29,14 @@ jobs:
           grep -q "SynLogic" _site/index.html
           grep -q "jliugi@connect.ust.hk" _site/index.html
           grep -q "On the Universal Truthfulness Hyperplane Inside LLMs" _site/publications/index.html
+      - name: Check live URL
+        run: |
+          for i in 1 2 3 4 5 6; do
+            code=$(curl -L -s -o /tmp/live.html -w "%{http_code}" "https://gangpythoncast.github.io/LJT-Homepage/" || true)
+            echo "Attempt $i: HTTP $code"
+            if [ "$code" = "200" ]; then
+              grep -q "Junteng Liu" /tmp/live.html && echo "Live content check passed" && exit 0
+            fi
+            sleep 20
+          done
+          echo "Live URL was unavailable or did not contain the expected content"
